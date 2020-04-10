@@ -33,7 +33,7 @@ radar_df_mm <- bind_rows(
   radar_df
 )  
 
-## Set color codes for each row ====
+## Set color codes for each team ====
 barca_col <- c(col2rgb("darkblue", alpha = FALSE))
 barca_col <- c(rgb(barca_col[1], barca_col[2], barca_col[3], 128, 
                    maxColorValue = 255))
